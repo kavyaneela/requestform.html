@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Request Form</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            .child{
+                border:5px soild black;
+                float: left;
+                width: 50%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="request" align="center"><h1>New User Request Form</h1></div>
+        <div class="main">
+            <form method="post">
+                <h2 align="center">Request for New User Account/orAccount Extension</h2>
+
+                <table border="1" width="100%" cellspacing="40%" cellpadding="20%" align="center">
+                    <tr>
+                        <td>
+                            <h3 class="name">Full Name *</h3>
+                            <input type="text" class="firstname" placeholder="First Name" style="width:30%">    
+                            <input type="text" class="Lastname" placeholder="Last Name" style="width:30%">
+                            <section class="parent">
+                                <section class="child">
+                                    <h3>User Name *</h3>
+                                    <input type="text" class="username" style="width:50%">
+                                </section>    
+                                <section class="child">
+                                    <h3>Team and Title</h3>
+                                    <input type="text" class="team" style="width:50%">
+                                </section>   <br> 
+
+                                <section class="child">
+                                    <h3>Mobile Number *</h3>
+                                    <input type="number" class="number" style="width:50%">
+                                </section>
+                                <section class="child">
+                                    <h3>E-Mail</h3>
+                                    <input type="email"  class="mail" style="width:50%" placeholder="e.g.zzzzz@gmail.com">
+                                </section>
+                            
+                                <section class="child">
+                                    <h3>Please indicate your Request</h3>
+                                    <input type="radio" name="request" value="Apply for a New Account" style="width:10%">Apply for a New Account 
+                                    <input type="radio" name="request" value="Extend my Existing Account" style="width:10%">Extend my Existing Account
+                                </section>
+                            
+                                <section class="child">
+                                    <h3 class="end">End User Management</h3>
+                                    <p>I would like to-</p><br>
+                                    <input type="checkbox" name="req1">Reset password and unlock Account<br>
+                                    <input type="checkbox" name="req1">Add computer and user objects to the domain<br>
+                                    <input type="checkbox" name="req1">Modify user details<br>
+                                    <input type="checkbox" name="req1">Have local administrator rights on the machines<br>
+                                    <input type="checkbox" name="req1">Other
+                                </section>    
+
+                                <section class="child">
+                                    <h3 class="support">Active Directory Support</h3>
+                                    <p>I require the following-</p>
+                                    <input type="checkbox" name="support">Modify Group Policy<br>
+                                    <input type="checkbox" name="support">Configure and Modify DNS<br>
+                                    <input type="checkbox" name="support">Configure and Modify DHCP<br>
+                                    <input type="checkbox" name="support">Ability to move computer and user accounts
+                                </section>
+
+                                <section class="child">
+                                    <h3 class="right">Do you require administrator rights?</h3>
+                                    <input type="radio" name="rgt" value="Yes" style="width:30">Yes<br>
+                                    <input type="radio" name="rgt" value="No" style="width:30">No
+                                </section>
+
+                                <section class="parent">
+                                    <section class="child">
+                                    <h3 class="text">Project Specifics</h3>
+                                    <p>Please specifics if the above access is required for a specific project?</p>
+                                    <textarea>Enter the text</textarea>
+                                    </section>
+                                </section>
+
+                    </section>
+                    <br><br><br><br>
+
+                    <div align="center">
+                        <button type="submit" style="width:200px">Request</button>
+                    </div>
+                        </td>
+                    </tr>
+                </table>
+                
+                              
+
+
+            </form>
+        </div>
+    </body>
+</html>
